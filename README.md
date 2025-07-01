@@ -12,7 +12,7 @@ A simple C++ OpenGL application that demonstrates rendering a triangle and a squ
 ## Screenshots
 
    ![Triangle mode](Screenshots/Triangle.png)
-   ![Square mode](Screenshots/Square.png)
+   ![Square mode](Screenshots/square.png)
    ![Wireframe mode](Screenshots/square-wf.png)]
 
 ## Controls

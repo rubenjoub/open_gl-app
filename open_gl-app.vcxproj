@@ -137,6 +137,7 @@
     <ClInclude Include="..\..\..\Desktop\dev\DevLibs\Include\GLFW\glfw3.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="shaders\fragment.glsl" />
     <None Include="shaders\vertex.glsl" />
   </ItemGroup>
