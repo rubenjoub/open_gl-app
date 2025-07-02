@@ -1,11 +1,13 @@
 # OpenGL App
 
-A simple C++ OpenGL application that demonstrates rendering a triangle and a square using modern OpenGL (3.3 Core Profile) with GLFW and GLAD. The app allows toggling between solid and wireframe rendering modes and switching between shapes using keyboard input.
+A simple C++ OpenGL application that demonstrates rendering a triangle, square, or circle using modern OpenGL (3.3 Core Profile) with GLFW and GLAD. The app allows toggling between solid and wireframe rendering modes, switching between shapes, adjusting the circle's smoothness, and cycling shape colors using keyboard input.
 
 ## Features
 
-- Renders a colored triangle or square in a window.
-- Toggle between triangle and square with the `Space` key.
+- Renders a colored triangle, square, or circle in a window.
+- Toggle between triangle, square, and circle with the `Space` key.
+- Adjust the number of triangles used to approximate the circle with `+` and `-` keys.
+- Cycle shape color between red, green, and blue with the `C` key.
 - Toggle wireframe/solid mode with the `W` key.
 - Clean, minimal code using modern OpenGL practices.
 
@@ -13,15 +15,18 @@ A simple C++ OpenGL application that demonstrates rendering a triangle and a squ
 
    ![Triangle mode](Screenshots/Triangle.png)
    ![Square mode](Screenshots/square.png)
-   ![Wireframe mode](Screenshots/square-wf.png)]
+   ![Wireframe mode](Screenshots/square-wf.png)
+   ![Circle mode](Screenshots/circle.png)
 
 ## Controls
 
-| Key      | Action                        |
-|----------|------------------------------|
-| Space    | Toggle between triangle/square|
-| W        | Toggle wireframe/solid mode   |
-| Escape   | Exit the application          |
+| Key      | Action                                                      |
+|----------|-------------------------------------------------------------|
+| Space    | Toggle between triangle, square, and circle                 |
+| + / -    | Increase/decrease circle triangle count (circle mode only)  |
+| C        | Cycle shape color (red, green, blue)                        |
+| W        | Toggle wireframe/solid mode                                 |
+| Escape   | Exit the application                                        |
 
 ## Requirements
 
