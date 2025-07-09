@@ -23,10 +23,9 @@ A simple C++ OpenGL application that demonstrates rendering a triangle, square, 
 | Key      | Action                                                      |
 |----------|-------------------------------------------------------------|
 | Space    | Toggle between triangle, square, and circle                 |
-| + / -    | Increase/decrease circle triangle count (circle mode only)  |
-| C        | Cycle shape color (red, green, blue)                        |
-| W        | Toggle wireframe/solid mode                                 |
+| Q        | Toggle wireframe/solid mode                                 |
 | Escape   | Exit the application                                        |
+| C		   | render a cube	                                             |
 
 ## Requirements
 

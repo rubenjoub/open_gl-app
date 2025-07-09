@@ -130,17 +130,17 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir)libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(ProjectDir)\libs\glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
+		<AdditionalLibraryDirectories>$(ProjectDir)libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		<AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+	</Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\open_gl-app\open_gl-app\src\glad.c" />
-    <ClCompile Include="..\..\..\Desktop\open_gl-app\open_gl-app\src\main.cpp" />
+	  <ClCompile Include="src\glad.c" />
+	  <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Desktop\dev\DevLibs\Include\glad\glad.h" />
-    <ClInclude Include="..\..\..\Desktop\dev\DevLibs\Include\GLFW\glfw3.h" />
+	  <ClInclude Include="external\glad\glad.h" />
+	  <ClInclude Include="external\GLFW\glfw3.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
